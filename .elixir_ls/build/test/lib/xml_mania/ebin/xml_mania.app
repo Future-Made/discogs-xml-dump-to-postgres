@@ -1,0 +1,12 @@
+{application,xml_mania,
+             [{applications,[kernel,stdlib,elixir,logger,sweet_xml,postgrex,
+                             ecto_sql]},
+              {description,"xml_mania"},
+              {modules,['Elixir.DemandCaster.Musician',
+                        'Elixir.DemandCaster.Repo',
+                        'Elixir.FutureMadeEvents.Musician',
+                        'Elixir.FutureMadeEvents.Repo','Elixir.XmlMania',
+                        'Elixir.XmlMania.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.XmlMania.Application',[]}}]}.

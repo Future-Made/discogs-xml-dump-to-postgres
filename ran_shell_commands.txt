@@ -1,0 +1,6 @@
+connect to the existing database to populate artists database from the discogs data.
+
+mix ecto.gen.repo -r DemandCaster.Repo
+
+
+iex(17)> Elasticsearch.post(DemandCaster.ElasticSearchCluster, "/artists/_doc/_search", %{"query" => %{"match" => %{"name": "GAYE SU"}}})

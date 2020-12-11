@@ -1,0 +1,25 @@
+1m line xml (not 100k artists) took 35 seconds to print something like this with IO.inspect/1
+
+
+8m (7972670)
+
+
+{
+  artists: [
+    %{name: "The Persuader"},
+    %{name: "Mr. James Barth & A.D."},
+    %{name: "Josh Wink"},
+    %{name: "Johannes Heil"},
+    %{name: "Heiko Laux"},
+    %{name: "K.A.B."},
+	.
+	.
+	.
+    %{name: "Lance Nuance"},
+    %{name: "Dub-Tech Soundsystem"},
+    %{name: "Casey Hogan"},
+    %{name: "Entity (2)"},
+    %{...},
+    ...
+  ]
+}
