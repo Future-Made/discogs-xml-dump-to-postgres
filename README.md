@@ -1,21 +1,12 @@
 # XmlMania
 
-**TODO: Add description**
+Reads Discogs artists XML document (as of 1st Sept 2020) for near 8 million musicians and creates a table on Postgres with name and discogs_id to be able to query new artist metadata as they are required, for FutureMade -- Events application.
 
-## Installation
+## Requirements
+Elixir, nodejs installed 
+and Postgres db up and running & 
+configured with your credentials (update config/config.exs);
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `xml_mania` to your list of dependencies in `mix.exs`:
+[Here](https://medium.com/@streamerd/creating-a-global-database-of-musicians-on-postgresql-using-discogs-xml-data-and-elixir-ae6c53a7596d) is is the related blog post about this development.
 
-```elixir
-def deps do
-  [
-    {:xml_mania, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/xml_mania](https://hexdocs.pm/xml_mania).
 

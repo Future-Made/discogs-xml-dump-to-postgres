@@ -9,8 +9,7 @@ defmodule XmlMania.Application do
     # List all child processes to be supervised
     children = [
       FutureMadeEvents.Repo
-      # Starts a worker by calling: XmlMania.Worker.start_link(arg)
-      # {XmlMania.Worker, arg},
+
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
